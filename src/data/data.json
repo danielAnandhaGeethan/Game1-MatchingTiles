@@ -1,43 +1,102 @@
 [
-    {
-      "photo": "Shepherd with sheep",
-      "verse": "Psalm 23:1-2",
-      "text": "The Lord is my shepherd; I shall not want. He makes me lie down in green pastures."
-    },
-    {
-      "photo": "Sunrise over mountains",
-      "verse": "Psalm 113:3",
-      "text": "From the rising of the sun to its setting, the name of the Lord is to be praised."
-    },
-    {
-      "photo": "Eagle soaring in the sky",
-      "verse": "Isaiah 40:31",
-      "text": "But they who wait for the Lord shall renew their strength; they shall mount up with wings like eagles."
-    },
-    {
-      "photo": "Olive tree",
-      "verse": "Romans 11:17",
-      "text": "If some of the branches have been broken off, and you, though a wild olive shoot, have been grafted in among the others and now share in the nourishing sap from the olive root."
-    },
-    {
-      "photo": "Vineyard",
-      "verse": "John 15:5",
-      "text": "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit."
-    },
-    {
-      "photo": "Ocean waves",
-      "verse": "Psalm 93:4",
-      "text": "Mightier than the thunder of the great waters, mightier than the breakers of the sea—the Lord on high is mighty."
-    },
-    {
-      "photo": "Lily flowers",
-      "verse": "Matthew 6:28-29",
-      "text": "Consider the lilies of the field, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these."
-    },
-    {
-      "photo": "Starry night sky",
-      "verse": "Genesis 15:5",
-      "text": "And he brought him outside and said, 'Look toward heaven, and number the stars, if you are able to number them.' Then he said to him, 'So shall your offspring be.'"
-    }
-  ]
-  
+  {
+    "photo": "Shepherd with sheep",
+    "verse": "Psalm 23:1-2",
+    "text": "The Lord is my shepherd; I shall not want. He makes me lie down in green pastures."
+  },
+  {
+    "photo": "Sunrise over mountains",
+    "verse": "Psalm 113:3",
+    "text": "From the rising of the sun to its setting, the name of the Lord is to be praised."
+  },
+  {
+    "photo": "Eagle soaring in the sky",
+    "verse": "Isaiah 40:31",
+    "text": "But they who wait for the Lord shall renew their strength; they shall mount up with wings like eagles."
+  },
+  {
+    "photo": "Olive tree",
+    "verse": "Romans 11:17",
+    "text": "If some of the branches have been broken off, and you, though a wild olive shoot, have been grafted in among the others and now share in the nourishing sap from the olive root."
+  },
+  {
+    "photo": "Vineyard",
+    "verse": "John 15:5",
+    "text": "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit."
+  },
+  {
+    "photo": "Ocean waves",
+    "verse": "Psalm 93:4",
+    "text": "Mightier than the thunder of the great waters, mightier than the breakers of the sea—the Lord on high is mighty."
+  },
+  {
+    "photo": "Lily flowers",
+    "verse": "Matthew 6:28-29",
+    "text": "Consider the lilies of the field, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these."
+  },
+  {
+    "photo": "Starry night sky",
+    "verse": "Genesis 15:5",
+    "text": "And he brought him outside and said, 'Look toward heaven, and number the stars, if you are able to number them.' Then he said to him, 'So shall your offspring be.'"
+  },
+  {
+    "photo": "Rocky cliff",
+    "verse": "Psalm 18:2",
+    "text": "The Lord is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge."
+  },
+  {
+    "photo": "Rainbow after rain",
+    "verse": "Genesis 9:13",
+    "text": "I have set my rainbow in the clouds, and it will be the sign of the covenant between me and the earth."
+  },
+  {
+    "photo": "Burning bush",
+    "verse": "Exodus 3:2",
+    "text": "There the angel of the Lord appeared to him in flames of fire from within a bush. Moses saw that though the bush was on fire it did not burn up."
+  },
+  {
+    "photo": "Lion",
+    "verse": "Proverbs 28:1",
+    "text": "The wicked flee though no one pursues, but the righteous are as bold as a lion."
+  },
+  {
+    "photo": "Tower of Babel",
+    "verse": "Genesis 11:4",
+    "text": "Then they said, 'Come, let us build ourselves a city, with a tower that reaches to the heavens, so that we may make a name for ourselves.'"
+  },
+  {
+    "photo": "Moses parting the Red Sea",
+    "verse": "Exodus 14:21",
+    "text": "Then Moses stretched out his hand over the sea, and all that night the Lord drove the sea back with a strong east wind and turned it into dry land."
+  },
+  {
+    "photo": "Ark of the Covenant",
+    "verse": "Deuteronomy 10:2",
+    "text": "I will write on the tablets the words that were on the first tablets, which you broke. Then you are to put them in the ark."
+  },
+  {
+    "photo": "Ten Commandments",
+    "verse": "Exodus 31:18",
+    "text": "When the Lord finished speaking to Moses on Mount Sinai, he gave him the two tablets of the covenant law, the tablets of stone inscribed by the finger of God."
+  },
+  {
+    "photo": "Bethlehem Star",
+    "verse": "Matthew 2:2",
+    "text": "We saw his star when it rose and have come to worship him."
+  },
+  {
+    "photo": "Jesus calming the storm",
+    "verse": "Mark 4:39",
+    "text": "He got up, rebuked the wind and said to the waves, 'Quiet! Be still!' Then the wind died down and it was completely calm."
+  },
+  {
+    "photo": "The Last Supper",
+    "verse": "Luke 22:19",
+    "text": "And he took bread, gave thanks and broke it, and gave it to them, saying, 'This is my body given for you; do this in remembrance of me.'"
+  },
+  {
+    "photo": "Empty tomb",
+    "verse": "Matthew 28:6",
+    "text": "'He is not here; he has risen, just as he said. Come and see the place where he lay.'"
+  }
+]
