@@ -1,19 +1,25 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import Tile from './Tile';
 
-function Row({data}) {
-
-    useEffect(() => {
-        const x = () => {
-            console.log("Data : ", data);
-        }
-
-        x();
-    }, [data])
+function Row({ data, selected, setSelected, setFlippedCount, flippedCount, resetTiles, checkState, setPoints }) {
 
   return (
-    <div>
-        
-    </div>
+    <div className='flex flex-wrap justify-center gap-1'>
+            {data.map((item, index) => (
+                <div className="" key={index}>
+                    <Tile 
+                        item={item} 
+                        selected={selected} 
+                        setSelected={setSelected} 
+                        flippedCount={flippedCount} 
+                        setFlippedCount={setFlippedCount} 
+                        resetTiles={resetTiles} 
+                        checkState={checkState} 
+                        setPoints={setPoints}
+                    />       
+                </div>
+            ))}
+        </div>
   )
 }
 

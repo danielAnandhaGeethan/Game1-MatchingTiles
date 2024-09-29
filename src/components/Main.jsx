@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from 'react'
 import data from '../data/data.json';
 import Game from './Game';
+import bg from '../data/bg.png'
 
 function Main() {
     const [bundle, setBundle] = useState([]);
     const [verses, setVerses] = useState([]);
     const [photos, setPhotos] = useState([]);
-    const [code, setCode] = useState(1001);
 
     useEffect(() => {
-        const handleReload = () => {
-            const shuffledData = shuffleArray(data);
-            setBundle(shuffledData);
-            setGameData(shuffledData.slice(0,8));
-        }
-
-        window.addEventListener('load', handleReload);
-        return () => {
-            window.removeEventListener('load', handleReload);
-          };
+        const shuffledData = shuffleArray(data);
+        setGameData(shuffledData.slice(0,8));
     }, []);
-    
+
+    useEffect(() => {
+        if(photos.length > 0 && verses.length > 0){
+            const combined = shuffleArray([...verses, ...photos]);
+            setBundle(combined);
+        }
+    }, [verses, photos]);
+
     const getRandomInt = (min, max) => {
         min = Math.ceil(min);
         max = Math.floor(max);
@@ -46,21 +45,22 @@ function Main() {
         let photoArray = [];
         let currentCode = 1001;
 
-        data.map((item) => {
-            photoArray.push({ "photo" : item.photo, "code" : code });
-            verseArray.push({ "verse" : item.text, "code" : code });
+        data.forEach((item) => {
+            photoArray.push({ "photo" : item.photo, "code" : currentCode, "flipped" : false, isMatched : false  });
+            verseArray.push({ "verse" : item.text, 'ref' : item.verse, "code" : currentCode, "flipped" : false, isMatched : false });
             currentCode += 1;
         });
 
         setVerses(verseArray);
         setPhotos(photoArray);
-        setCode(currentCode);
     }
 
     return (
-    <div class='bg-[#BF964A] h-screen flex justify-center items-center'>
-        <Game verses={verses} photos={photos} getRandomInt={getRandomInt}/>
-    </div>
+        <div className='h-screen flex justify-center items-center' style={{ background: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <div className='bg-white bg-opacity-40 rounded-lg p-1 sm:p-2 md:p-3 lg:p-4 xl:p-5 w-full'>
+                <Game bundle={bundle} getRandomInt={getRandomInt} />
+            </div>
+        </div>
   )
 }
 
