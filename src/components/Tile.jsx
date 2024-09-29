@@ -48,12 +48,12 @@ function Tile({ item, selected, setSelected, flippedCount, setFlippedCount, rese
         isFlipped ?
           (
             <div className='bg-white w-full h-12 w-12 sm:h-20 sm:w-20 md:h-26 md:w-26 lg:h-32 lg:w-32 p-2 text-sm text-black rounded-xl flex justify-center items-center cursor-pointer shadow-md hover:shadow-lg transition-shadow duration-200' onClick={tileOnClick}>
-              {item.photo ? <img src={item.photo} alt={item.ref} className="w-full h-full object-cover rounded-xl" /> : item.ref}
+              {item.photo ? "" : item.ref}
             </div>
           ) :
           (
             <div className='bg-black w-full h-10 w-10 sm:h-15 sm:w-15 md:h-20 md:w-20 lg:h-32 lg:w-32 p-2 text-sm text-white rounded-xl flex justify-center items-center cursor-pointer shadow-md hover:shadow-lg transition-shadow duration-200' onClick={tileOnClick}>
-              
+              {""}
             </div>
           )
       }
